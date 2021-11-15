@@ -1,0 +1,51 @@
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  list-style-type: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    margin-right: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+  }
+}
+.list-text-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic {
+  border-radius: 200px;
+  background-color: blue;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 15px;
+  margin-right: 10px;
+}
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.stars {
+  width: 100px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
+.delete-icon {
+  width: 50px;
+}
